@@ -29,7 +29,7 @@ void testcase() {
     if(v.size() == 0){
         cout << "Empty" << endl;
     } else {
-        for(int k = 0; k < v.size(); k++)
+        for(int k = 0; k < (int) v.size(); k++)
             cout << v[k] << " ";
         cout << endl;
     }
